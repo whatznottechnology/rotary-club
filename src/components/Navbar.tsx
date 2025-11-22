@@ -42,7 +42,7 @@ const Navbar = () => {
                 href="https://www.facebook.com/profile.php?id=100079339462053" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 text-muted-foreground hover:text-primary transition-colors rounded-md hover:bg-secondary"
+                className="p-2 text-blue-600 hover:text-blue-700 transition-colors rounded-md hover:bg-blue-50"
                 aria-label="Facebook"
               >
                 <Facebook className="h-4 w-4" />
@@ -51,7 +51,7 @@ const Navbar = () => {
                 href="https://www.instagram.com/rotarycalcuttanewhorizons/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 text-muted-foreground hover:text-primary transition-colors rounded-md hover:bg-secondary"
+                className="p-2 text-pink-600 hover:text-pink-700 transition-colors rounded-md hover:bg-pink-50"
                 aria-label="Instagram"
               >
                 <Instagram className="h-4 w-4" />
@@ -60,7 +60,7 @@ const Navbar = () => {
                 href="https://www.youtube.com/@rotarycalcuttanewhorizons" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 text-muted-foreground hover:text-primary transition-colors rounded-md hover:bg-secondary"
+                className="p-2 text-red-600 hover:text-red-700 transition-colors rounded-md hover:bg-red-50"
                 aria-label="YouTube"
               >
                 <Youtube className="h-4 w-4" />
