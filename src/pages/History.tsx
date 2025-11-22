@@ -54,7 +54,16 @@ const History = () => {
                 <p className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                   The Rotary Club of Calcutta New Horizons was chartered on <strong className="text-primary">28th January 2022</strong>, with <strong className="text-primary">21 members</strong> and <strong className="text-primary">Rtn Luv Agarwal</strong> as the first Charter President.
                 </p>
-                <p className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+                <div className="animate-fade-in-up bg-gradient-to-r from-accent/10 via-accent/20 to-accent/10 p-6 rounded-2xl border-2 border-accent/30 shadow-lg my-6" style={{ animationDelay: '0.3s' }}>
+                  <p className="text-primary font-bold text-xl mb-3 flex items-center justify-center gap-2">
+                    <TrendingUp className="h-6 w-6 text-accent" />
+                    Remarkable Growth Milestone
+                  </p>
+                  <p className="text-foreground font-semibold">
+                    Membership increased from <strong className="text-accent">21 to 52 members within just 2 months</strong>, creating a sensation across District 3291!
+                  </p>
+                </div>
+                <p className="animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
                   The club was recognized as a leading club in District 3291, confirmed by District Governor Rtn. Piyali Chatterjee, District Administrator, and Regional Public Image Coordinator (RPIC) & Past District Governor Rtn. Chiranjib Sen.
                 </p>
               </div>
@@ -174,8 +183,13 @@ const History = () => {
                       <p className="hover:text-foreground transition-colors">
                         The club faced a huge turmoil as <strong className="text-primary">Rtn Luv Agarwal</strong> left the club along with 44 members. <strong className="text-primary">Rtn Raja Satyajit Banerjee</strong> became the next Club President.
                       </p>
+                      <div className="bg-gradient-to-br from-red-50 to-orange-50 p-4 rounded-xl border-2 border-orange-200 my-3">
+                        <p className="hover:text-foreground transition-colors font-semibold text-orange-900">
+                          On <strong className="text-primary">1st July 2023</strong>, membership dropped to just <strong className="text-red-600">6 members</strong> – the most challenging phase in our club's history.
+                        </p>
+                      </div>
                       <p className="hover:text-foreground transition-colors">
-                        The club continued with <strong className="text-primary">6 members</strong> and gradually inducted new members.
+                        Despite the challenges, the club showed remarkable resilience and gradually inducted new members, rebuilding our foundation.
                       </p>
                       <div className="bg-gradient-to-br from-accent/10 to-primary/10 p-4 rounded-xl mt-4 border border-accent/20 group-hover:border-accent/40 transition-colors">
                         <p className="font-semibold text-primary flex items-center gap-2">
@@ -224,6 +238,12 @@ const History = () => {
                       <p className="hover:text-foreground transition-colors">
                         <strong className="text-primary">Rtn Avik Chatterjee</strong> took over as Club President and executed the maximum number of service projects (<strong className="text-accent">14 Projects</strong>).
                       </p>
+                      <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-4 rounded-xl border-2 border-green-300 my-3">
+                        <p className="text-foreground font-semibold flex items-center gap-2">
+                          <Users className="h-5 w-5 text-green-600" />
+                          <span>Membership Recovery: Growing strong with <strong className="text-green-700">15 dedicated members</strong>, demonstrating our resilience and commitment to service.</span>
+                        </p>
+                      </div>
                       <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-4 rounded-xl border border-accent/20 group-hover:border-accent/40 transition-colors">
                         <p className="font-semibold text-primary flex items-center gap-2">
                           <Heart className="h-4 w-4 text-accent" />
