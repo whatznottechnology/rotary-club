@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone, Clock, Facebook, Instagram, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -76,6 +76,40 @@ const Footer = () => {
                   <p>8:00 PM</p>
                   <p className="mt-1">Rotary Club House</p>
                 </div>
+              </div>
+            </div>
+            
+            {/* Social Media Links */}
+            <div className="mt-6">
+              <h4 className="font-semibold text-sm mb-3">Follow Us</h4>
+              <div className="flex gap-3">
+                <a 
+                  href="https://www.facebook.com/profile.php?id=100079339462053" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-primary-foreground/10 hover:bg-primary-foreground/20 p-2 rounded-full transition-all duration-300 hover:scale-110"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.instagram.com/rotarycalcuttanewhorizons/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-primary-foreground/10 hover:bg-primary-foreground/20 p-2 rounded-full transition-all duration-300 hover:scale-110"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.youtube.com/@rotarycalcuttanewhorizons" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-primary-foreground/10 hover:bg-primary-foreground/20 p-2 rounded-full transition-all duration-300 hover:scale-110"
+                  aria-label="YouTube"
+                >
+                  <Youtube className="h-5 w-5" />
+                </a>
               </div>
             </div>
           </div>

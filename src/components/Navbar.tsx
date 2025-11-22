@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Facebook, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -35,8 +35,40 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
+            
+            {/* Social Media Links */}
+            <div className="flex items-center gap-1 ml-2 mr-1">
+              <a 
+                href="https://www.facebook.com/profile.php?id=100079339462053" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 text-muted-foreground hover:text-primary transition-colors rounded-md hover:bg-secondary"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-4 w-4" />
+              </a>
+              <a 
+                href="https://www.instagram.com/rotarycalcuttanewhorizons/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 text-muted-foreground hover:text-primary transition-colors rounded-md hover:bg-secondary"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-4 w-4" />
+              </a>
+              <a 
+                href="https://www.youtube.com/@rotarycalcuttanewhorizons" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 text-muted-foreground hover:text-primary transition-colors rounded-md hover:bg-secondary"
+                aria-label="YouTube"
+              >
+                <Youtube className="h-4 w-4" />
+              </a>
+            </div>
+            
             <Link to="/donate">
-              <Button variant="accent" size="sm" className="ml-2">
+              <Button variant="accent" size="sm" className="ml-1">
                 Donate
               </Button>
             </Link>
