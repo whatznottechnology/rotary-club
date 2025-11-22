@@ -82,7 +82,7 @@ const Team = () => {
                       </div>
                       {/* Role Badge */}
                       <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-xs font-semibold shadow-md whitespace-nowrap">
-                        {leader.role.includes('President') && index === 0 ? 'President' : 
+                        {leader.role.includes('Club President') ? 'Club President' : 
                          leader.role.includes('Secretary') ? 'Secretary' : 
                          leader.role.includes('Vice President') ? 'IPP & VP' : 'Treasurer'}
                       </div>

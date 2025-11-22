@@ -10,7 +10,7 @@ const History = () => {
     },
     {
       icon: Users,
-      title: "52 Charter Members",
+      title: "21 Charter Members",
       description: "Started with a strong foundation of dedicated members",
     },
     {
@@ -52,7 +52,7 @@ const History = () => {
               </div>
               <div className="space-y-5 text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto text-lg">
                 <p className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                  The Rotary Club of Calcutta New Horizons was chartered on <strong className="text-primary">24th January 2023</strong>, with <strong className="text-primary">52 members</strong> and <strong className="text-primary">Rtn Luv Agarwal</strong> as the first Charter President.
+                  The Rotary Club of Calcutta New Horizons was chartered on <strong className="text-primary">28th January 2022</strong>, with <strong className="text-primary">21 members</strong> and <strong className="text-primary">Rtn Luv Agarwal</strong> as the first Charter President.
                 </p>
                 <p className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
                   The club was recognized as a leading club in District 3291, confirmed by District Governor Rtn. Piyali Chatterjee, District Administrator, and Regional Public Image Coordinator (RPIC) & Past District Governor Rtn. Chiranjib Sen.
@@ -129,7 +129,7 @@ const History = () => {
                     <h3 className="text-2xl font-bold text-primary mb-4 group-hover:text-accent transition-colors">The Beginning</h3>
                     <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
                       <p className="hover:text-foreground transition-colors">
-                        <strong className="text-primary">Rtn Luv Agarwal</strong> chartered the club on <strong className="text-primary">24th January 2023</strong> with <strong className="text-primary">52 members</strong> as the first Charter President.
+                        <strong className="text-primary">Rtn Luv Agarwal</strong> chartered the club on <strong className="text-primary">28th January 2022</strong> with <strong className="text-primary">21 members</strong> as the first Charter President.
                       </p>
                       <p className="hover:text-foreground transition-colors">
                         The club movement grew to 52 members and was recognized as a leading club in District 3291.

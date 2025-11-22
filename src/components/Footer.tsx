@@ -117,7 +117,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-sm text-primary-foreground/80">
-            © {new Date().getFullYear()} Rotary Club. All rights reserved. | Service Above Self
+            © {new Date().getFullYear()} Rotary Club of Calcutta New Horizons. All rights reserved. | Service Above Self
           </p>
         </div>
       </div>

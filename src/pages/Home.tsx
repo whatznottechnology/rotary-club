@@ -158,7 +158,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold text-primary mb-6">
-              Welcome to Rotary Club
+              Welcome to Rotary Club of Calcutta New Horizons
             </h2>
             <p className="text-lg text-muted-foreground">
               We are a community of professionals committed to service above self. Through fellowship,
