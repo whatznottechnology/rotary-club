@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import rotaryLogo from "@/assets/rotary-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +20,8 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3">
-            <img src={rotaryLogo} alt="Rotary Club Logo" className="h-12 w-12" />
-            <div className="flex flex-col">
-              <span className="font-bold text-xl text-primary">Rotary Club</span>
-              <span className="text-xs text-muted-foreground">Service Above Self</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img src="/rotary logo.png" alt="Rotary Club Logo" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

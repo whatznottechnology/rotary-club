@@ -1,6 +1,5 @@
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import rotaryLogo from "@/assets/rotary-logo.png";
 
 const Footer = () => {
   return (
@@ -9,9 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <img src={rotaryLogo} alt="Rotary Logo" className="h-10 w-10" />
-              <h3 className="font-bold text-lg">Rotary Club</h3>
+            <div className="mb-4">
+              <img src="/rotary logo.png" alt="Rotary Logo" className="h-16 w-auto" />
             </div>
             <p className="text-sm text-primary-foreground/80 mb-4">
               RID 3291; Club No. 223497
@@ -58,11 +56,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/80">
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                <span>+91 XXXXX XXXXX</span>
+                <span>+91 8910430104</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/80">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>info@rotaryclub.org</span>
+                <span>rotarycalcuttanewhorizons@gmail.com</span>
               </li>
             </ul>
           </div>
