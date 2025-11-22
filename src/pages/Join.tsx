@@ -11,7 +11,7 @@ import { Users, Heart, Globe, CheckCircle } from "lucide-react";
 
 const Join = () => {
   const { toast } = useToast();
-  const [formType, setFormType] = useState<"member" | "volunteer" | "donate">("member");
+  const [formType, setFormType] = useState<"member" | "volunteer">("member");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -105,11 +105,16 @@ const Join = () => {
               Volunteer
             </Button>
             <Button
-              variant={formType === "donate" ? "default" : "outline"}
-              onClick={() => setFormType("donate")}
+              variant="accent"
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/Membership Form-Blank.pdf';
+                link.download = 'Membership Form-Blank.pdf';
+                link.click();
+              }}
               size="lg"
             >
-              Donate
+              Download Membership Form
             </Button>
           </div>
         </div>
@@ -139,7 +144,6 @@ const Join = () => {
                   <CardTitle className="text-2xl">
                     {formType === "member" && "Membership Application"}
                     {formType === "volunteer" && "Volunteer Registration"}
-                    {formType === "donate" && "Make a Donation"}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -232,30 +236,13 @@ const Join = () => {
                       </>
                     )}
 
-                    {/* Donation Specific Fields */}
-                    {formType === "donate" && (
-                      <div className="space-y-2">
-                        <Label htmlFor="amount">Donation Amount (INR) *</Label>
-                        <Input
-                          id="amount"
-                          type="number"
-                          value={formData.amount}
-                          onChange={(e) => setFormData({ ...formData, amount: e.target.value })}
-                          required
-                          placeholder="Enter amount"
-                        />
-                      </div>
-                    )}
-
                     <div className="space-y-2">
-                      <Label htmlFor="message">
-                        {formType === "donate" ? "Message (Optional)" : "Why do you want to join? *"}
-                      </Label>
+                      <Label htmlFor="message">Why do you want to join? *</Label>
                       <Textarea
                         id="message"
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        required={formType !== "donate"}
+                        required
                         rows={4}
                       />
                     </div>
@@ -263,7 +250,6 @@ const Join = () => {
                     <Button type="submit" size="lg" className="w-full">
                       {formType === "member" && "Submit Application"}
                       {formType === "volunteer" && "Register as Volunteer"}
-                      {formType === "donate" && "Proceed to Payment"}
                     </Button>
                   </form>
                 </CardContent>
