@@ -64,7 +64,7 @@ const History = () => {
                   </p>
                 </div>
                 <p className="animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-                  The club was recognized as a leading club in District 3291, confirmed by District Governor Rtn. Piyali Chatterjee, District Administrator, and Regional Public Image Coordinator (RPIC) & Past District Governor Rtn. Chiranjib Sen.
+                  The club was recognized as a leading club in District 3291, confirmed by District Governor Rtn. Prabir Chatterjee, District Administrator, and Regional Public Image Coordinator (RPIC) & Club Advisor Rtn. Anand Kumar Sharma.
                 </p>
               </div>
             </CardContent>

@@ -56,7 +56,7 @@ const Awards = () => {
             {/* Economic and Community Development */}
             <Card className="scroll-fade-left group shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border-t-4 border-accent hover:border-primary">
               <div className="relative h-72 overflow-hidden bg-gradient-to-br from-accent/10 via-white to-primary/10">
-                <img src="/awards/Awards.pdf-image-001.jpg" alt="Economic and Community Development Award" className="w-full h-full object-contain p-6 transition-transform duration-700 group-hover:scale-110" />
+                <img src="/awards/1.jpg" alt="Economic and Community Development Award" className="w-full h-full object-contain p-6 transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute top-4 right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-xs font-bold shadow-lg">
                   SPECIAL RECOGNITION
                 </div>
@@ -77,7 +77,7 @@ const Awards = () => {
             {/* Basic Education & Literacy Support */}
             <Card className="scroll-fade-right group shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border-t-4 border-primary hover:border-accent">
               <div className="relative h-72 overflow-hidden bg-gradient-to-br from-primary/10 via-white to-accent/10">
-                <img src="/awards/Awards.pdf-image-002.jpg" alt="Basic Education & Literacy Support Award" className="w-full h-full object-contain p-6 transition-transform duration-700 group-hover:scale-110" />
+                <img src="/awards/2.jpg" alt="Basic Education & Literacy Support Award" className="w-full h-full object-contain p-6 transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-4 py-2 rounded-full text-xs font-bold shadow-lg">
                   SPECIAL RECOGNITION
                 </div>
@@ -100,7 +100,7 @@ const Awards = () => {
           <div className="mb-12 scroll-scale">
             <Card className="group shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border-2 border-accent/30 hover:border-accent">
               <div className="relative h-96 overflow-hidden bg-gradient-to-br from-accent/5 via-white to-primary/5">
-                <img src="/awards/Awards.pdf-image-003.png" alt="EOBO Club Award" className="w-full h-full object-contain p-8 transition-transform duration-700 group-hover:scale-105" />
+                <img src="/awards/3.jpg" alt="EOBO Club Award" className="w-full h-full object-contain p-8 transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute top-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-accent to-primary text-white px-6 py-3 rounded-full text-sm font-bold shadow-xl">
                   DISTRICT AWARD CEREMONY
                 </div>
@@ -179,7 +179,7 @@ const Awards = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10 pointer-events-none"></div>
                 <div className="h-[500px] overflow-hidden bg-white flex items-center justify-center p-10">
                   <img 
-                    src="/awards/Awards.pdf-image-000.jpg" 
+                    src="/awards/4.png" 
                     alt="Citation Certificate from Rotary International" 
                     className="max-w-full max-h-full object-contain transition-all duration-700 group-hover:scale-105 shadow-2xl rounded-lg" 
                   />
@@ -231,7 +231,7 @@ const Awards = () => {
             <Card className="scroll-fade-left group shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border-t-4 border-yellow-400 hover:border-yellow-500">
               <div className="relative h-80 overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-orange-50">
                 <img 
-                  src="/awards/Awards.pdf-image-005.jpg" 
+                  src="/awards/5.jpg" 
                   alt="Thalassemia Awareness Award" 
                   className="w-full h-full object-contain p-6 transition-all duration-700 group-hover:scale-110" 
                 />
@@ -258,7 +258,7 @@ const Awards = () => {
             <Card className="scroll-fade-right group shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden border-t-4 border-orange-400 hover:border-orange-500">
               <div className="relative h-80 overflow-hidden bg-gradient-to-br from-orange-50 via-white to-red-50">
                 <img 
-                  src="/awards/Awards.pdf-image-006.jpg" 
+                  src="/awards/6.jpg" 
                   alt="Literacy Award" 
                   className="w-full h-full object-contain p-6 transition-all duration-700 group-hover:scale-110" 
                 />
@@ -294,7 +294,7 @@ const Awards = () => {
                         <div className="absolute -inset-4 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
                         <div className="relative w-56 h-56 rounded-full overflow-hidden ring-8 ring-yellow-400 group-hover:ring-yellow-500 transition-all duration-500 shadow-2xl">
                           <img 
-                            src="/awards/Awards.pdf-image-007.jpg" 
+                            src="/awards/7.jpg" 
                             alt="Rtn. Avik Chatterjee" 
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                           />
@@ -340,7 +340,7 @@ const Awards = () => {
             <Card className="scroll-fade-left group shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border-t-4 border-yellow-400">
               <div className="relative h-96 overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-orange-50 flex items-center justify-center p-8">
                 <img 
-                  src="/awards/Awards.pdf-image-008.jpg" 
+                  src="/awards/8.jpg" 
                   alt="Thalassemia Awareness Trophy" 
                   className="max-w-full max-h-full object-contain transition-all duration-700 group-hover:scale-105 drop-shadow-2xl" 
                 />
@@ -366,7 +366,7 @@ const Awards = () => {
             <Card className="scroll-fade-right group shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden border-t-4 border-orange-400">
               <div className="relative h-96 overflow-hidden bg-gradient-to-br from-orange-50 via-white to-red-50 flex items-center justify-center p-8">
                 <img 
-                  src="/awards/Awards.pdf-image-009.jpg" 
+                  src="/awards/9.jpg" 
                   alt="Literacy Award Trophy" 
                   className="max-w-full max-h-full object-contain transition-all duration-700 group-hover:scale-105 drop-shadow-2xl" 
                 />

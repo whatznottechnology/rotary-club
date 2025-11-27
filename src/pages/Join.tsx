@@ -23,23 +23,48 @@ const Join = () => {
     amount: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Prepare email content
+    const emailBody = `
+New ${formType === "member" ? "Membership Application" : "Volunteer Registration"}
+
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Occupation: ${formData.occupation}
+Organization: ${formData.organization}
+Areas of Interest: ${formData.interests.join(", ")}
+Message: ${formData.message}
+
+Application Type: ${formType === "member" ? "Membership" : "Volunteer"}
+    `.trim();
+
+    // Create mailto link
+    const mailtoLink = `mailto:rotarycalcuttanewhorizons@gmail.com?subject=${encodeURIComponent(`New ${formType === "member" ? "Membership" : "Volunteer"} Application - ${formData.name}`)}&body=${encodeURIComponent(emailBody)}`;
+    
+    // Open default email client
+    window.location.href = mailtoLink;
+    
     toast({
-      title: "Application Submitted!",
-      description: "Thank you for your interest. We will contact you soon.",
+      title: "Opening Email Client...",
+      description: "Please send the email to complete your application.",
     });
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      occupation: "",
-      organization: "",
-      interests: [],
-      message: "",
-      amount: "",
-    });
+    
+    // Reset form after a short delay
+    setTimeout(() => {
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        occupation: "",
+        organization: "",
+        interests: [],
+        message: "",
+        amount: "",
+      });
+    }, 1000);
   };
 
   const benefits = [
